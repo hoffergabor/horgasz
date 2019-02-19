@@ -1,0 +1,72 @@
+
+/* ==== GENERAL ==== */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 100;
+    display: block;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: block;
+}
+
+.title {
+
+}
+
+.weeks {
+    padding-top: 100px;
+}
+
+.weeks .week {
+    clear: both;
+    display: block;
+    margin: 0;
+    height: 140px;
+    background: linear-gradient(
+        rgba(200,200,200,1) 0%, rgba(200,200,200,1) 14%, 
+        rgba(200,200,200,0.5) 14%, rgba(200,200,200,0.5) 28%, 
+        rgba(200,200,200,1) 28%, rgba(200,200,200,1) 42%, 
+        rgba(200,200,200,0.5) 42%, rgba(200,200,200,0.5) 56%, 
+        rgba(200,200,200,1) 56%, rgba(200,200,200,1) 70%, 
+        rgba(200,100,200,0.9) 70%, rgba(200,100,200,0.9) 84%, 
+        rgba(200,100,200,1) 84%, rgba(200,100,200,1) 100%);
+    margin-left: 10%;
+}
+
+.week h3 {
+    margin: 0;
+    margin-left: -10%;
+    text-align: right;
+    width: 8%;
+    font-size: 100%;
+    line-height: 20px;
+}
